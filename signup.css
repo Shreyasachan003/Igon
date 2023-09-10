@@ -1,0 +1,116 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+     background: linear-gradient(62deg, rgb(142, 197, 252) 17%, rgb(224, 195, 252) 100%);;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  }
+
+/* Style the registration form */
+.registration.form {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-left: 15px;
+    border-radius: 7px;
+    width: 430px;
+}
+
+.registration.form header {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.registration.form input[type="text"],
+.registration.form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.registration.form input[type="button"] {
+    width: 100%;
+    background-color: #8A6CFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the "Already have an account?" section */
+.signup {
+    text-align: center;
+}
+
+.signup span {
+    font-size: 14px;
+}
+
+.signup label {
+    color: #8A6CFF;
+    cursor: pointer;
+}
+
+/* Style the checkbox */
+#check {
+    display: none;
+}
+
+/* Style the checkbox label as a link */
+#check + .registration.form .signup label::before {
+    content: "\00a0"; /* Add some space before the label */
+    text-decoration: none;
+}
+
+.signup{
+    font-size: 17px;
+    text-align: center;
+  }
+  .signup label{
+    color:#8A6CFF;
+    cursor: pointer;
+  }
+  .signup label:hover{
+    text-decoration: underline;
+  }
+
+   .form input{
+   height: 60px;
+   width: 100%;
+   padding: 0 15px;
+   font-size: 17px;
+   margin-bottom: 1.3rem;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   outline: none;
+ }
