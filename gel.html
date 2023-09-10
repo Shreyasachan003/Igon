@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gel.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="gel.js" defer></script>
+  </head>
+  <body>
+    <header>
+
+      <!--navbar  part is started from here -->
+
+      <a href="#" class="logo"><i class="uil uil-flower" aria-hidden="true"></i></i>Igon</a>
+      
+      <div id="menu" class="fas fa-bars"></div>
+      
+      <nav id="navi" class="navbar">
+          <ul>
+              <li><a href="#GAL" style="--i:1" class="active">Explore</li>
+              <li><a href="#"style="--i:2">Sign in </a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <!--lightbox part is started from here -->
+
+    <div class="lightbox" >
+      <div class="wrapper">
+        <header>
+          <div class="photographer">
+            <i class="uil uil-camera"></i>
+            <span>Madona</span>
+          </div>
+          <div class="buttons">
+            <i class="uil uil-import"></i>
+            <i class="close-icon uil uil-times"></i>
+          </div>
+        </header>
+        <div class="preview-img">
+          <div class="img"><img src="" alt="preview-img"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--search box part is started from here -->
+
+
+    <section class="search">
+      <img src="back1.jpg" alt="">
+      <div class="content">
+        <h1>Image Gallery For Everyone</h1>
+        <p>Search and download any images within a second</p>
+        <div class="search-box">
+          <i class="uil uil-search"></i>
+          <input type="text" placeholder="Search images">
+        </div>
+      </div>
+    </section>
+    <section class="gallery" id="GAL">
+      <ul class="images">
+        <li class="card">
+          <img src="home.jpg" alt="">
+          <div class="details">
+            <div class="photographer">
+                <i class="uil uil-camera"></i>
+                <span>Madona</span>
+            </div>
+            <button> <i class="uil uil-import"></i></button>
+          </div>
+        </li>
+    </ul>
+
+
+    <!--loadmore part is started from here -->
+
+
+      <button class="load-more">Load More</button>
+    </section>
+
+    <!--footer part is started from here -->
+
+    <footer class="footer">
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href="#"><i class="uil uil-facebook"></i></a>
+          <a href="#"><i class="uil uil-twitter"></i></a>
+          <a href="#"><i class="uil uil-instagram"></i></a>
+          <a href="#"><i class="uil uil-linkedin"></i></a>
+        </div>
+      </div>
+
+        <div class="last-text"><br>
+          <h4>Created by <span style="color:#9f80e3">Igon</span> | all rights reserved. </h4>
+        </div>
+
+    </footer>
+ 
+  </section>
+  </body>
+</html>
