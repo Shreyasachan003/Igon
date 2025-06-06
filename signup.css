@@ -1,4 +1,4 @@
-/* Import Google font - Poppins */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-/* Apply styles to the entire page */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -31,7 +31,7 @@ body {
     box-shadow: 0 5px 10px rgba(0,0,0,0.3);
   }
 
-/* Style the registration form */
+
 .registration.form {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -67,7 +67,7 @@ body {
     cursor: pointer;
 }
 
-/* Style the "Already have an account?" section */
+
 .signup {
     text-align: center;
 }
@@ -81,14 +81,14 @@ body {
     cursor: pointer;
 }
 
-/* Style the checkbox */
+
 #check {
     display: none;
 }
 
-/* Style the checkbox label as a link */
+
 #check + .registration.form .signup label::before {
-    content: "\00a0"; /* Add some space before the label */
+    content: "\00a0"; 
     text-decoration: none;
 }
 
